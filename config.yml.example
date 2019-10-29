@@ -1,0 +1,25 @@
+logger:
+  URI: "127.0.0.1:9200"
+  Protocol: "http"
+
+mq:
+  User: "**REMOVED**"
+  Password: "**REMOVED**"
+  URI: "127.0.0.1:5672"
+
+storage:
+  URI: "127.0.0.1:9000"
+  AccessKeyID: "**REMOVED**"
+  SecretAccessKey: "**REMOVED**"
+  UseSSL: false
+
+db:
+  URI: "127.0.0.1:9200"
+  Protocol: "http"
+
+app:
+  frontend:
+    DownloadEnabled: true
+    ReportResults: 10
+  importer:
+    ForceReimport: false

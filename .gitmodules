@@ -1,0 +1,36 @@
+[submodule "Analyser/Intel"]
+	path = Analyser/Intel
+	url = https://github.com/Mimoja/MFT-Analyser-Intel
+[submodule "MFT-Common"]
+	path = MFT-Common
+	url = https://github.com/Mimoja/MFT-Common
+[submodule "MFT-Docker"]
+	path = MFT-Docker
+	url = https://github.com/Mimoja/MFT-Docker
+[submodule "MFT-Downloader"]
+	path = MFT-Downloader
+	url = https://github.com/Mimoja/MFT-Downloader
+[submodule "MFT-Importer"]
+	path = MFT-Importer
+	url = https://github.com/Mimoja/MFT-Importer
+[submodule "MFT-Reindexer"]
+	path = MFT-Reindexer
+	url = https://github.com/Mimoja/MFT-Reindexer
+[submodule "amdfw"]
+	path = amdfw
+	url = https://github.com/Mimoja/amdfw
+[submodule "Analyser/AMD"]
+	path = Analyser/AMD
+	url = https://github.com/Mimoja/MFT-Analyser-AMD
+[submodule "Analyser/EFI"]
+	path = Analyser/EFI
+	url = https://github.com/Mimoja/MFT-Analyser-EFI
+[submodule "Analyser/Microcode"]
+	path = Analyser/Microcode
+	url = https://github.com/Mimoja/MFT-Analyser-Microcode
+[submodule "Analyser/Certificates"]
+	path = Analyser/Certificates
+	url = https://github.com/Mimoja/MFT-Analyser-Certificates
+[submodule "MFT-Frontend"]
+	path = MFT-Frontend
+	url = https://github.com/Mimoja/MFT-Frontend
