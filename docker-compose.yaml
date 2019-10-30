@@ -1,0 +1,71 @@
+version: '3'
+services:
+  go-yara:
+    container_name: mft_go-yara
+    build: MFT-Docker/docker/yara
+
+  downloader:
+    container_name: mft_downloader
+    build: MFT-Downloader
+    volumes:
+      - './config:/app/config'
+    restart: unless-stopped
+    network_mode: "host"
+
+  importer:
+    container_name: mft_importer
+    build: MFT-Importer
+    volumes:
+      - './config:/app/config'
+    restart: unless-stopped
+    network_mode: "host"
+
+  analyser_amd:
+    container_name: mft_analyser_amd
+    build: Analyser/AMD
+    volumes:
+      - './config:/app/config'
+    restart: unless-stopped
+    network_mode: "host"
+
+  analyser_intel:
+    container_name: mft_analyser_intel
+    build: Analyser/Intel
+    volumes:
+      - './config:/app/config'
+    restart: unless-stopped
+    network_mode: "host"
+
+  analyser_efi:
+    container_name: mft_analyser_efi
+    build: Analyser/EFI
+    volumes:
+      - './config:/app/config'
+    restart: unless-stopped
+    network_mode: "host"
+
+  analyser_microcode:
+    container_name: mft_analyser_micocode
+    build: Analyser/Microcode
+    volumes:
+      - './config:/app/config'
+    restart: unless-stopped
+    network_mode: "host"
+
+  analyser_certificates:
+    container_name: mft_analyser_certificates
+    build: Analyser/Certificates
+    volumes:
+      - './config:/app/config'
+    restart: unless-stopped
+    network_mode: "host"
+
+  frontend:
+    container_name: mft_frontend
+    build: MFT-Frontend
+    volumes:
+      - './config:/app/config'
+    restart: unless-stopped
+    network_mode: "host"
+    ports:
+      - 127.0.0.1:9080:9080

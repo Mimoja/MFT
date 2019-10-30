@@ -4,11 +4,9 @@
 
 ## Usage
 
-1. Aquire dependencies:
-   - Elasticsearch
-   - RabbitMQ
-   - Minio / S3
-   - Yara >= 3.9.0
-2. `make ensure`
-3. `make build`
-4. Start services from their folders in pkg. Provide config as first parameter. Use config.yml.example as base.
+1. Clone this repository recursivly
+2. `docker-compose build`
+3. Create config.yml file and env file in MFT-Docker
+4. Run `docker-compose up` in MFT-Docker
+5. Run `docker-compose up` in this folder
+
