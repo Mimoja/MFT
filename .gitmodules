@@ -46,3 +46,9 @@
 	path = MFT-Frontend
 	url = https://github.com/Mimoja/MFT-Frontend
 	branch = master
+[submodule "intelfit"]
+	path = intelfit
+	url = https://github.com/Mimoja/intelfit
+[submodule "intelifd"]
+	path = intelifd
+	url = https://github.com/Mimoja/intelfd
