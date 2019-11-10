@@ -20,6 +20,14 @@ services:
     restart: unless-stopped
     network_mode: "host"
 
+  reindexer:
+    container_name: mft_reindexer
+    build: MFT-Reindexer
+    volumes:
+      - './config:/app/config'
+    restart: unless-stopped
+    network_mode: "host"
+
   analyser_amd:
     container_name: mft_analyser_amd
     build: Analyser/AMD
