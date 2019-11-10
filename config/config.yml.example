@@ -23,3 +23,5 @@ app:
     ReportResults: 10
   importer:
     ForceReimport: false
+  reindexer:
+    ReindexTimeInHours: 24
