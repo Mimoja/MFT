@@ -52,3 +52,9 @@
 [submodule "intelifd"]
 	path = intelifd
 	url = https://github.com/Mimoja/intelifd
+[submodule "Analyser/intelfsp"]
+	path = Analyser/intelfsp
+	url = https://github.com/mimoja/intelfsp
+[submodule "intelfsp"]
+	path = intelfsp
+	url = https://github.com/mimoja/intelfsp
