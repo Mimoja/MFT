@@ -58,3 +58,6 @@
 [submodule "intelfsp"]
 	path = intelfsp
 	url = https://github.com/mimoja/intelfsp
+[submodule "spdlib"]
+	path = spdlib
+	url = https://github.com/Mimoja/spdlib
